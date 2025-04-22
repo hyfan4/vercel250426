@@ -1,7 +1,7 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
-  background-color: #f4f4f4;  /* 背景顏色設置 */
-  background-image: url('path-to-your-image.jpg');  /* 如果需要背景圖片 */
+  /*background-color: #f4f4f4 !important; /* 強制背景色 */
+  background-image: url('assets/images/background.jpg') !important; /* 強制背景圖片 */
   background-size: cover;
   background-position: center;
   margin: 0;
