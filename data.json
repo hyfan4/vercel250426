@@ -3,14 +3,14 @@
   "public": true,
   "builds": [
     {
-      "src": "index.html",
+      "src": "index1.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/index1.html"
     }
   ]
 }
